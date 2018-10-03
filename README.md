@@ -38,7 +38,13 @@ versions as well.
 
 ## Where to go next with this
 
-An obvious thing would be to start adapting this to my project at
-work, but it would also be cool to do a non-trivial example in this
-public git repo. Maybe set up some little web server and throw requests
+An obvious thing would be to start adapting this to some non-trivial
+example project. Maybe set up some little web server and throw requests
 at it and make sure it does the right things at the right times.
+
+Also, it might be nice to have some way to select which Python classes
+should run as mocks and which should run as real. Maybe something like
+
+    python hack.py --mocks-except MyFavoriteClass
+
+That doesn't explain how you'll implement it, but it's a starting point.
